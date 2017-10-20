@@ -13,15 +13,22 @@
 </form>
 
 <!-- Alternate syntax, using 'for' and 'id' attributes -->
-<form action="sign-in-url" method="post>"
+<form action="sign-in-url" method="post">
     <label for="username">Username:</label>
     <input id="username" type="text">
     <label for="password">Password:</label>
     <input id="password" type="password">
     <button>Login</button>
-    
+</form>
+
+<!-- simple form validations -->
+<form action="/sign-in-url" method="port">
+    <label for="email">Email:</label>
+    <input id="email" type:"email" required>
+    <label for="password">Password:</label>
+    <input id="password" type="password" required>
+    <button>Login</button>
 </form>
 
 </body>
-
 </html>
