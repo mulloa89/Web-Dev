@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Forms Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Register</h1>
+
+    <form action="/register-here-url" method="post/get">
+        <p>
+            <label for="first name">First Name:</label>
+            <input id="first name" type="text" required>
+            <label for="last name">Last Name:</label>
+            <input id="last name" type="text" required>
+        </p>
+
+        <!-- radio button "required" tag:can be in one input or all -->
+        <p>
+            <label for="male">Male</label>
+            <input name="gender choice" id="male" type="radio" value="MALE" required>
+            <label for="female">Female</label>
+            <input name="gender choice" id="female" type="radio" value="FEMALE">
+            <label for="other">Other</label>
+            <input name="gender choice" id="other" type="radio" value="OTHER">
+        </p>
+        <!-- Password requirement set w/ pattern=... -->
+        <p>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required/>
+            <label for="password">Passsword:</label>
+            <input id="password" type="password" pattern=".{5,10}" required title="5 to 10 characters">
+        </p>
+        <!-- select tag w/"required" tag; notice initial value is empty -->
+        <p>Birthday:
+            <select required name="Month">
+                <option value="">Month</option>
+                <option value="JAN">JAN</option>
+                <option value="FEB">FEB</option>
+                <option value="MARCH">MAR</option>
+            </select>
+            <select required name="DAY">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <select required name="YEAR">
+                <option value="">Year</option>
+                <option value="1989">1989</option>
+                <option value="1990">1990</option>
+                <option value="1991">1991</option>
+            </select>
+        </p>
+
+
+        <label for="Agree-to-terms">I agree to the terms and conditions</label>
+        <input name="agreement" id="Agree-to-terms" type="radio" value="AGREED" required>
+        <button>Submit</button>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
