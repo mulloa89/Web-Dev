@@ -7,3 +7,49 @@ selector {
 
 */
 
+/* Colors in CSS */
+
+h1 {
+  color: #4b0092;
+  /* hexadecimal color */
+}
+
+li {
+  color: rgb(11, 99, 150);
+  /* RGB color */
+}
+
+/* RGBA color; last value handles transparency (0.0 - 1.0) */
+
+h4 {
+  color: rgba(11, 99, 150, 0.6);
+}
+
+/* Color & Background */
+
+body {
+  background: rgb(255, 100, 80);
+}
+
+/* Background Image */
+
+body {
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/bf/e0/ff/bfe0fff75f29c5bfab4cb116ba4b0d65.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Borders: style, width, color*/
+
+h4 {
+  color: rgba(11, 99, 150, 0.6);
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+}
+
+h4 {
+  color: rgba(11, 99, 150, 0.6);
+  border: 5px solid purple;
+}
+/* styles: solid, dashed, dotted */

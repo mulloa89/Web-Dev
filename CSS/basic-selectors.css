@@ -1,0 +1,73 @@
+/* Basic Selector Notes */
+
+/* not href linked to a specific file */
+
+
+
+
+
+/* Element Selector: applied to instances of an element */
+
+div {
+    background: purple;
+}
+
+p {
+    color: yellow;
+}
+
+li {
+    border: 2px solid red;
+}
+
+
+/* Id Selector:
+    -add an "id" to elements in html
+    -reference that id in css file to style it
+*/
+
+HTML:
+
+<li id="special">
+<input type="checkbox">
+Drink Water
+</li>
+
+CSS:
+
+li {
+    border: 1px solid red
+}
+
+#special{
+    background: indigo;
+}
+
+
+/* Class Selector: selects all elements w/ a given class */
+
+/*  */
+HTML:
+
+<div>
+    <p class="highlight">You say yes</p>
+    <p>I say no</p>
+</div>
+
+<div>
+    <p class="hightlight">You say goodbye</p>
+    <p>I say hello</p>
+</div>
+
+CSS:
+
+div {
+    background: purple;
+}
+
+.highlight {
+    background: yellow;
+}
+
+
+/* **see todo-list.html & todos.css for example*** */

@@ -1,0 +1,15 @@
+body {
+    background: lightslategrey;
+}
+
+li {
+    border: 1px solid red
+}
+
+#special {
+    background: indigo;
+}
+
+.completed {
+    text-decoration: line-through;
+}
