@@ -1,0 +1,37 @@
+/* Star: applies to all elements */
+
+* {
+
+}
+
+/* Descendant Selector: selects descendants of and element */
+
+li a {
+  color: red;
+}
+
+/* Adjacent Selector: selects elements that come after another element  */
+
+h4 + ul {
+
+}
+
+/* Attribute Selector: selects elements based off of any attribute */
+
+a [attribute] {
+
+}
+
+a [href="http://www.google.com"] {
+  background: blue;
+}
+
+/* nth of type */
+
+ul:nth-of-type(3){
+    background: purple;
+}
+
+ul:nth-of-type(even){
+    background: purple;
+}
