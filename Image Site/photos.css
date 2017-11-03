@@ -18,9 +18,9 @@
 /* https://farm6.staticflickr.com/5495/9268108811_67fd7a5a60_z.jpg */
 
 img {
-
-    width: 30%;
     float: left;
-    margin: 1.6%;
-
+    width: 30%;
+    margin: 1.66%;
+    /* height: 200px; */
+    /* display: flex; */
 }
